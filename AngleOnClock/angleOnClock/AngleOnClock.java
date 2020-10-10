@@ -51,7 +51,7 @@ class Time{
 	
 	public int getTime(){
 		
-		return abs(this.hr*5*6+this.min/12*6-this.min*6);
+		return Math.abs(this.hr*5*6+this.min/12*6-this.min*6);
 		
 		/*
 		 *60-->360
@@ -62,7 +62,7 @@ class Time{
 		 * 
 		 *
 		 */
-		return 0;
+		
 	}
 
 }
