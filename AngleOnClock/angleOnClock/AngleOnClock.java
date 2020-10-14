@@ -26,6 +26,7 @@ class Time {
 	private int hr;
 	private int min;
 
+	//constructor
 	public Time(int a, int b) {
 		hr = a;
 		min = b;
